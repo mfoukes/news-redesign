@@ -1,1 +1,330 @@
+    .lt-ie10 .messenger.suggestions {
+        display: block !important;
+        height: 50px;
+    }
 
+    .lt-ie10 .messenger.suggestions .message-bed {
+        background-color: #f8e9d2;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .lt-ie10 .messenger.suggestions .message-container {
+        padding: 11px 18px 11px 30px;
+    }
+
+    .lt-ie10 .messenger.suggestions .action-link {
+        font-family: "nyt-franklin", arial, helvetica, sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        color: #a81817;
+        text-transform: uppercase;
+    }
+
+    .lt-ie10 .messenger.suggestions .alert-icon {
+        background: url('http://i1.nyt.com/images/icons/icon-alert-12x12-a81817.png') no-repeat;
+        width: 12px;
+        height: 12px;
+        display: inline-block;
+        margin-top: -2px;
+        float: none;
+    }
+
+    .lt-ie10 .masthead,
+    .lt-ie10 .navigation,
+    .lt-ie10 .comments-panel {
+        margin-top: 50px !important;
+    }
+
+    .lt-ie10 .ribbon {
+        margin-top: 97px !important;
+    }
+/* Fix MM icons in kickers */
+.kicker .icon:before { top: 0px; }
+.kicker .media.slideshow { margin-bottom: 0px; }
+
+
+
+/* Hiding Hacks */
+
+.nythpHideKickers .kicker, .nythpHideBylines .byline, .nythpHideTimestamps .timestamp {
+    display: none;
+}
+
+/* banner hed modifications */
+.span-ab-top-region .story.theme-summary .story-heading {
+  line-height: 2.1rem;
+}
+
+
+/* Alterations to the Centered Feature Photo Spot Treatment */
+
+.b-column .photo-spot-region .story.theme-feature .story-heading {
+    font-size: 1.35rem;
+    line-height: 1.65rem;
+}
+
+.b-column  .photo-spot-region .story.theme-feature .story-heading {
+    padding: 0 22px; /* for headline wrapping  */
+}
+.b-column .photo-spot-region .story.theme-feature .summary {
+    line-height: 18px;
+}
+
+/* Breaking News/Developing Headers */
+.nythpBreaking {
+    color: #A81817;
+    border-top: 3px solid #A81817;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+.nythpBreaking h6 {
+    text-transform: uppercase;
+    font-family: "nyt-franklin",arial,helvetica,sans-serif;
+    font-weight: 900;
+}
+
+.nythpDeveloping {
+    color: #FD8249;
+    border-top-color: #FD8249;
+}
+
+.nythpBreaking.nythpNoRule {
+    border: none;
+}
+
+
+
+/* Daypart Styles */
+
+.pocket-region .story, .c-column #nythpDaypartRegion .story { margin-bottom: 15px !important; }
+
+.pocket-region h4.sectionHeaderHome, .c-column #nythpDaypartRegion h4.sectionHeaderHome {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+    font-family: "nyt-cheltenham-sh",georgia,"times new roman",times,serif;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+.pocket-region h5, .c-column #nythpDaypartRegion h5 {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    font-family: "nyt-cheltenham-sh",georgia,"times new roman",times,serif;
+    margin-bottom: 2px;
+}
+
+.pocket-region .runaroundRight, .c-column #nythpDaypartRegion .runaroundRight {
+    float: right;
+    clear: right;
+    margin: 3px 0px 6px 6px;
+}
+
+.pocket-region .summary, .c-column #nythpDaypartRegion .summary {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    font-family: georgia,"times new roman",times,serif;
+    margin-bottom: 0px;
+}
+
+.pocket-region .refer li, .c-column #nythpDaypartRegion .refer li {
+    background-image: url(http://css.nyt.com/images/icons/bullet4x4.gif);
+    background-repeat: no-repeat;
+    background-position: 0 .4em;
+    padding-left: 8px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+    font-family: "nyt-cheltenham-sh",georgia,"times new roman",times,serif;
+}
+
+
+
+/* BEGIN .HPHEADER STYLING */
+
+.wf-loading .hpHeader h6 {
+    visibility: hidden;
+  }
+
+.hpHeader {
+  margin-bottom: 8px;
+}
+
+.hpHeader h6 {
+  font-family: "nyt-franklin",helvetica,arial,sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 10px;
+  padding: 12px 4px 2px 0;
+  
+  border-top: 1px solid #E2E2E2;
+}
+
+
+.hpHeader h6 a, 
+.hpHeader h6 a:visited  {
+  text-decoration: none;
+  color: #000;
+}
+
+.hpHeader h6:hover, .span-ab-top-region .hpHeader h6 a:hover, .top-news .b-column .hpHeader h6 a:hover, .b-column .split-layout .hpHeader h6:hover,  
+.hpHeader h6:active, .span-ab-top-region .hpHeader h6 a:active, .top-news .b-column .hpHeader h6 a:active, .b-column .split-layout .hpHeader h6:active {
+  border-bottom-color: #000;
+}
+
+/* B Column Centered Treatment */
+.span-ab-top-region .hpHeader h6, .top-news .b-column .hpHeader h6  {
+  text-align: center;
+  border-bottom: none;
+  padding: 0px;
+}
+
+.span-ab-top-region .hpHeader h6 a, .top-news .b-column .hpHeader h6 a  {
+  display: inline-block;
+  border-bottom: 1px solid #999;
+  padding: 12px 4px 2px 4px;
+}
+
+/* Undo B Column Treatment for 3 Column Layouts and Split Code */
+.b-column .split-layout .hpHeader h6 {
+  text-align: left;    
+  border-bottom: 1px solid #999;
+  padding: 12px 4px 2px 0;
+}
+
+.b-column .split-layout .hpHeader h6 a {
+  border-bottom: none;
+  padding: 0;
+}
+
+
+/* Remove Top Rule When First in Region */
+.collection:first-child .hpHeader h6, .collection:first-child .hpHeader h6 a {
+  border-top: none;
+  padding-top: 0;
+}
+
+/* Lens Header Styles */
+
+.hpHeader h6, .span-ab-top-region .hpHeader h6 a, .top-news .b-column .hpHeader h6 a, .b-column .split-layout .hpHeader h6 { border-bottom-width: 2px; }
+
+/* END .HPHEADER STYLING */
+
+
+/* Briefing Newsletter */
+
+.nythpBriefingNewsletterSignup {
+    font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    padding-left: 16px;
+    background: url('http://graphics8.nytimes.com/packages/images/homepage/newsletter_icon.png') no-repeat;
+    font-weight: 400;
+}
+
+a.nythpBriefingNewsletterSignup, a:link.nythpBriefingNewsletterSignup, a:visited.nythpBriefingNewsletterSignup {
+    color: #326891;
+}
+
+.nythpBriefings h3.kicker {
+    font-family: nyt-franklin,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    background: url('http://graphics8.nytimes.com/packages/images/homepage/briefings/dogear_sm.png') no-repeat scroll left top transparent;
+    padding: 0 0 3px 20px;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    color: #000;
+    margin-bottom: 8px;
+margin-top: 0px !important;
+}
+
+.nythpBriefings .timestamp {display: none;}
+
+/* Gift Guide Promos */
+
+.nythpGiftguide h3.kicker {
+
+}
+
+.nythpGiftguide article .kicker, .nythpGiftguide .byline {
+    display: none;
+}
+
+.b-column .nythpGiftguide .image {
+    margin-top: -40px;
+}
+
+.nythpGiftguide .theme-news-headlines li:before {
+    background: none;
+    border: none;
+}
+
+.nythpGiftguide .theme-news-headlines li {
+    padding-left: 0px;
+}
+
+.nythpGiftguide .refer li .refer-heading {
+    font-family: "nyt-franklin",arial,helvetica,sans-serif; 
+    text-transform: uppercase; 
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.nythpGiftguide .story.theme-summary .story-heading {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+    font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+}
+.nythpElection2016Header {
+
+}
+
+.nythpElection2016Header h6 {
+    font-family: "nyt-franklin", arial, helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    background-image: url(http://graphics8.nytimes.com/newsgraphics/2015/02/25/election-navigation/assets/images/election-2016-logo.png);
+    background-repeat: no-repeat;
+    margin-bottom: 6px;
+    height: 18px;
+    background-position: left bottom;
+    margin: 0 auto 6px;
+    background-size: 18px 18px;
+    padding: 5px 5px 0 25px;
+    letter-spacing: 1px;
+}
+
+.nythpElection2016Header h6 a {
+    text-decoration: none;
+    color: #000;
+}
+
+ .nythpElection2016Header h6:hover,
+ .nythpElection2016Header h6:active {
+}
+
+.nythpElection2016Header h6 a, 
+.nythpElection2016Header h6 a:visited  {
+    text-decoration: none;
+    color: #000;
+}
+
+.nythpElection2016Header h6 em {
+  color: #999;
+  font-style: normal;
+}
+
+.span-ab-top-region .nythpElection2016Header, .b-column .nythpElection2016Header {
+    text-align: center;
+}
+
+.span-ab-top-region .nythpElection2016Header h6, .b-column .nythpElection2016Header h6 {
+    display: inline-block;
+
+}
