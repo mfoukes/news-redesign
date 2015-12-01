@@ -1,6 +1,7 @@
     .lt-ie10 .messenger.suggestions {
         display: block !important;
         height: 50px;
+        color: blue;
     }
 
     .lt-ie10 .messenger.suggestions .message-bed {
